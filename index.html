@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Daniel - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <a href="#home" class="logo">Jonathan <span>Daniel</span></a>
+        <span class="menu-icon" id="menu-icon">&#9776;</span>
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello, I'm <span>Jonathan Daniel</span></h1>
+            <p>Welcome to my personal landing page.</p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+        <div class="home-img">
+            <img src="gambarsatu.jpg" alt="Profile Picture" width="350" height="350">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="heading">About Me</h2>
+        <p>
+            Hello guys, my name is Jonathan Daniel. I am a student of Univerisitas Tarumanagara
+        </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="gambardua.png" alt="Insurance Website" class="portfolio-img" />
+                <h3>Insurance Website</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="gambartiga.png" alt="Todo-List" class="portfolio-img" />
+                <h3>Todo-List</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+        <form>
+            <div class="input-box">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="copyright">&copy; 2025 Jonathan Daniel</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
